@@ -10,7 +10,7 @@ Hemesh Colorizer
 
 <p>At the top left of the GUI, there is a zoom control but you can also the same by holding both mouse buttons down. 
 Next are 6 color parameters. Depending on the coloring algorithm, these parameters would have different meanings. 
-The “jiggle” feature randomly shifts the vertices of the mesh.</p>
+The "jiggle" feature randomly shifts the vertices of the mesh.</p>
 
 <p>On the right are various dropdown controls with options. The first is to select the model shape to load (model files are loaded from the "shapes" directory). 
 The second dropdown control is to select a HE_Mesh modifier and the third is to select the coloring algorithm.</p>
@@ -47,6 +47,8 @@ The second dropdown control is to select a HE_Mesh modifier and the third is to 
 <li>R: hide/show the lights</li>
 </ul>
 </p>
+
+<p>Once the model is exported, the .wrl can be uploaded to a 3D printing service like Shapeways and using the full colored sandstone material.</p>
 
 <p>If you need to manually edit the model after it is colorized, you can import it into <a href="http://blender.org">Blender</a>. Unfortunately, 
 Blender does not support colors in WRL files. So the file has to be converted to 3DS format to keep 
